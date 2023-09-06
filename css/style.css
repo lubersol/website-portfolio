@@ -80,6 +80,7 @@ strong {
     font-weight: var(--fw-bold);
     transition: transform 2s ease-in-out;
 }
+
 /* Typography */
 
 h1,
@@ -116,6 +117,12 @@ h3 { font-size: var(--fs-h3) }
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
     margin-bottom: 1em;
 }
 
@@ -270,3 +277,40 @@ nav {
         z-index: 2;
     }
 }
+
+
+/* My work */
+
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
