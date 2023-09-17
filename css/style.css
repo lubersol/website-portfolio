@@ -86,6 +86,7 @@ strong {
     transition: transform 2s ease-in-out;
 }
 
+
 /* Typography */
 
 h1,
@@ -459,3 +460,26 @@ header {
     padding: 0 .5em;
 }
 
+
+/* Individual portfolio item styles */
+
+.intro--portfolio {
+    padding: 3em 3em;
+}
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.portfolio-item-individual a {
+    margin-top: 0;
+    margin-left: 50%;
+}
