@@ -1,3 +1,9 @@
-# website-portfolio
+# Mi portfolio en inglés
 
-Mi website portfolio en inglés creado con html y css
+Portfolio creado con html y css, responsive.
+
+![Screenshot](portada.png)
+
+## link to github pages
+
+https://lubersol.github.io/website-portfolio/
